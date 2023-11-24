@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HOLA</pattern>
+        <template>
+            <random>
+            <li>¡Hola! ¿En qué puedo ayudarte hoy?</li>
+            <li>¡Hola! ¿Cómo puedo asistirte en este momento?</li>
+            <li>¡Saludos! ¿En qué puedo ser de ayuda?</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HORARIO</pattern>
+        <template>Tu horario de clases es el siguiente...</template>
+    </category>
+    
+    <category>
+        <pattern>* ASIGNATURA</pattern>
+        <template>La información es...</template>
+    </category>
+    
+    <category>
+        <pattern>AYUDA</pattern>
+        <template>Estoy aquí para ayudarte con cualquier pregunta que tengas. ¿En qué puedo asistirte hoy?</template>
+    </category>
+    
+    <category>
+        <pattern>ADIOS</pattern>
+        <template>¡Adiós! Si tienes más preguntas, aquí estaré para resolverlas.</template>
+    </category>
+</aiml>
