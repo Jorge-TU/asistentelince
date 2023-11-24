@@ -4,9 +4,9 @@
         <pattern>HOLA</pattern>
         <template>
             <random>
-            <li>¡Hola! ¿En qué puedo ayudarte hoy?</li>
-            <li>¡Hola! ¿Cómo puedo asistirte en este momento?</li>
-            <li>¡Saludos! ¿En qué puedo ser de ayuda?</li>
+                <li>¡Hola! ¿En qué puedo ayudarte hoy?</li>
+                <li>¡Hola! ¿Cómo puedo asistirte en este momento?</li>
+                <li>¡Saludos! ¿En qué puedo ser de ayuda?</li>
             </random>
         </template>
     </category>
@@ -28,11 +28,20 @@
     
     <category>
         <pattern>* AYUDA</pattern>
-        
+        <template>
+            <srai>AYUDA</srai>
+        </template>
     </category>
     
     <category>
         <pattern>ADIOS</pattern>
-        <template>¡Adiós! Si tienes más preguntas, aquí estaré para resolverlas.</template>
+        <template>
+            <random>
+                <li>¡Hasta luego! Si tienes más preguntas, estoy aquí.</li>
+                <li>Adiós. ¡No dudes en volver si necesitas ayuda!</li>
+                <li>¡Hasta pronto! Espero que tengas un buen día.</li>
+                <li>¡Adiós! Si tienes más preguntas, aquí estaré para resolverlas.</li>
+            </random>
+        </template>
     </category>
 </aiml>
