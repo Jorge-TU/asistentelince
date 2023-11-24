@@ -13,7 +13,13 @@
     
     <category>
         <pattern>HORARIO</pattern>
-        <template>Tu horario de clases es el siguiente...</template>
+        <template>
+            <random>
+                <li>Tu horario actual es en la tarde.</li>
+                <li>En este momento, estás programado para redes a las 18:00.</li>
+                <li>Consultando mi base de datos, veo que ahora deberías estar en el edificio B tomando Ing en sist basados en el conocimientos.</li>
+            </random>
+        </template>
     </category>
     
     <category>
