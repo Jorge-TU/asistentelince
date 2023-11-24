@@ -17,8 +17,14 @@
     </category>
     
     <category>
-        <pattern>ASIGNATURA</pattern>
-        <template>La información es...</template>
+        <pattern>ASIGNATURA *</pattern>
+        <template>
+            <random>
+                <li>En <star/>, adquirirás conocimientos sobre desarrollo de software, aplicación móvil, y servidores.</li>
+                <li><star/> te proporcionará habilidades en el flujo de trabajo y buenas prácticas.</li>
+                <li>Al estudiar <star/>, comprenderás en profundidad sobre inteligencia artificail.</li>
+            </random>
+        </template>
     </category>
     
     <category>
