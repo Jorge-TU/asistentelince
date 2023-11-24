@@ -17,8 +17,15 @@
     </category>
     
     <category>
-        <pattern>* ASIGNATURA</pattern>
+        <pattern>ASIGNATURA</pattern>
         <template>La información es...</template>
+    </category>
+    
+    <category>
+        <pattern>* ASIGNATURA</pattern>
+        <template>
+            <srai>ASIGNATURA</srai>
+        </template>
     </category>
     
     <category>
