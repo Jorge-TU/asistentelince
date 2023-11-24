@@ -27,6 +27,11 @@
     </category>
     
     <category>
+        <pattern>* AYUDA</pattern>
+        
+    </category>
+    
+    <category>
         <pattern>ADIOS</pattern>
         <template>¡Adiós! Si tienes más preguntas, aquí estaré para resolverlas.</template>
     </category>
