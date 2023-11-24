@@ -34,13 +34,6 @@
     </category>
     
     <category>
-        <pattern>* ASIGNATURA</pattern>
-        <template>
-            <srai>ASIGNATURA</srai>
-        </template>
-    </category>
-    
-    <category>
         <pattern>AYUDA</pattern>
         <template>Estoy aquí para ayudarte con cualquier pregunta que tengas. ¿En qué puedo asistirte hoy?</template>
     </category>
